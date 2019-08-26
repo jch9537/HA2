@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-.App-header {
+#mainBox {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -16,11 +16,28 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(231, 215, 247, 129);
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin-bottom : 120px;
+}
+
+
+.selectMenu{
+  margin: 10pt;
+  background-color: #282c34;
+  color: rgb(231, 215, 247, 129);
+  border: 20px;
+  pedding: 100px;
+}
+
+#selectTodo {
+
+}
+
+#selectBoard {
+
 }
 
 @keyframes App-logo-spin {
